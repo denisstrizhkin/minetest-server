@@ -1,0 +1,14 @@
+services:
+  minetest:
+    build: .
+    container_name: minetest
+    environment:
+      - PUID=1000
+      - PGID=1000
+      - TZ=Europe/London
+      - CLI_ARGS="--gameid minetest --port 30000" #optional
+    #volumes:
+    #  - ./minetest/games:/config/.minetest/
+    ports:
+      - 30000:30000/udp
+    restart: unless-stopped
