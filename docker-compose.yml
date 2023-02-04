@@ -7,8 +7,8 @@ services:
       - PGID=1000
       - TZ=Europe/London
       - CLI_ARGS=--gameid minetest --port 30000 #optional
-    #volumes:
-    #  - ./minetest/games:/config/.minetest/
+    volumes:
+      - ./minetest/worlds:/config/.minetest/worlds
     ports:
       - 30000:30000/udp
     restart: unless-stopped

@@ -4,4 +4,3 @@ WORKDIR /config/.minetest
 
 COPY ./minetest/games games
 COPY ./minetest/main-config main-config
-COPY ./minetest/worlds worlds
