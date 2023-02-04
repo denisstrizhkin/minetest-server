@@ -1,3 +1,6 @@
 [submodule "minetest/games/mineclone2"]
 	path = minetest/games/mineclone2
 	url = https://git.minetest.land/MineClone2/MineClone2
+[submodule "minetest/mods/home_point"]
+	path = minetest/mods/home_point
+	url = https://github.com/Beanzilla/home_point
