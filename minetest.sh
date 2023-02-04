@@ -5,7 +5,7 @@ set -e
 DIR=./minetest
 GAMES="$DIR/games"
 
-dc=docker-compose
+dc="docker compose"
 
 function start() {
     stop
