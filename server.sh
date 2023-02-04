@@ -6,6 +6,7 @@ DIR=./minetest
 GAMES="$DIR/games"
 
 dc="docker compose"
+gs="git submodule"
 
 function start() {
     stop
@@ -20,9 +21,8 @@ function stop() {
 }
 
 function setup() {
-    mkdir -p "$GAMES"
-    wget https://content.minetest.net/packages/Wuzzy/mineclone2/releases/16650/download/ -O mineclone2.zip
-    unzip mineclone2.zip -d "$GAMES"
+    $gs init
+    $gs update
 }
 
 case $1 in
