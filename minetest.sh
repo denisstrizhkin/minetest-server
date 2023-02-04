@@ -10,7 +10,7 @@ dc=docker-compose
 function start() {
     stop
     $dc pull
-    $dc up -d
+    $dc up --build -d
 }
 
 function stop() {
