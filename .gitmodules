@@ -7,3 +7,6 @@
 [submodule "minetest/mods/zoonami"]
 	path = minetest/mods/zoonami
 	url = https://codeberg.org/isaiah658/zoonami
+[submodule "minetest/mods/lumberjack"]
+	path = minetest/mods/lumberjack
+	url = https://github.com/joe7575/lumberjack
