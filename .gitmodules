@@ -4,3 +4,6 @@
 [submodule "minetest/mods/home_point"]
 	path = minetest/mods/home_point
 	url = https://github.com/Beanzilla/home_point
+[submodule "minetest/mods/zoonami"]
+	path = minetest/mods/zoonami
+	url = https://codeberg.org/isaiah658/zoonami
