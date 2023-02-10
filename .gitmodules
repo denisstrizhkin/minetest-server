@@ -13,3 +13,6 @@
 [submodule "minetest/mods/teleport-request"]
 	path = minetest/mods/teleport-request
 	url = https://github.com/minetest-mods/teleport-request
+[submodule "minetest/mods/fsc"]
+	path = minetest/mods/fsc
+	url = https://github.com/sofar/fsc
