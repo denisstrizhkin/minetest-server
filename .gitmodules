@@ -10,3 +10,6 @@
 [submodule "minetest/mods/lumberjack"]
 	path = minetest/mods/lumberjack
 	url = https://github.com/joe7575/lumberjack
+[submodule "minetest/mods/teleport-request"]
+	path = minetest/mods/teleport-request
+	url = https://github.com/minetest-mods/teleport-request
