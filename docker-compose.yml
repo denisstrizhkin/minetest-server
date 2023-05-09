@@ -6,7 +6,7 @@ services:
       - PUID=1000
       - PGID=1000
       - TZ=Europe/Moscow
-      - CLI_ARGS=--worldname TheWorld --port 30000 #optional
+      - CLI_ARGS=--worldname TheWorld --gameid mineclone2 --port 30000 #optional
     volumes:
       - ./minetest/worlds:/config/.minetest/worlds
     ports:

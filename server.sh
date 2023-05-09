@@ -15,9 +15,7 @@ function start() {
 }
 
 function stop() {
-    if [ $($dc ps | wc -l) -gt 2 ]; then
-        $dc down
-    fi
+    $dc down
 }
 
 function setup() {
