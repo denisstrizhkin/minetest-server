@@ -5,7 +5,7 @@ services:
     environment:
       - PUID=1000
       - PGID=1000
-      - TZ=Europe/London
+      - TZ=Europe/Moscow
       - CLI_ARGS=--worldname TheWorld --port 30000 #optional
     volumes:
       - ./minetest/worlds:/config/.minetest/worlds

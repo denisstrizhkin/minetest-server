@@ -4,12 +4,6 @@
 [submodule "minetest/mods/home_point"]
 	path = minetest/mods/home_point
 	url = https://github.com/Beanzilla/home_point
-[submodule "minetest/mods/zoonami"]
-	path = minetest/mods/zoonami
-	url = https://codeberg.org/isaiah658/zoonami
-[submodule "minetest/mods/lumberjack"]
-	path = minetest/mods/lumberjack
-	url = https://github.com/joe7575/lumberjack
 [submodule "minetest/mods/teleport-request"]
 	path = minetest/mods/teleport-request
 	url = https://github.com/minetest-mods/teleport-request
